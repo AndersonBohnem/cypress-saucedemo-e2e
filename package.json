@@ -1,0 +1,25 @@
+{
+  "name": "cypress-saucedemo-e2e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndersonBohnem/cypress-saucedemo-e2e.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndersonBohnem/cypress-saucedemo-e2e/issues"
+  },
+  "homepage": "https://github.com/AndersonBohnem/cypress-saucedemo-e2e#readme",
+  "description": "",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^23.1.0",
+    "@cypress/webpack-preprocessor": "^7.0.1",
+    "cypress": "^15.2.0",
+    "webpack": "^5.101.3"
+  }
+}
