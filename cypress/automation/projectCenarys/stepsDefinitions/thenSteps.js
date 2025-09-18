@@ -6,18 +6,21 @@ const pageHome = new PageHome();
 const pageCheckout = new PageCheckout();
 
 Then("devo ser redirecionado para a página principal", () => {
-    pageHome.validateTitleHome();
+  pageHome.validateTitleHome();
 });
 
 Then("vou para o carrinho de compras", () => {
-    pageHome.goToCart();
+  pageHome.goToCart();
 });
 
-Then("sou direcionado para a página de informações do cliente e preencho o formulário", () => {
+Then(
+  "sou direcionado para a página de informações do cliente e preencho o formulário",
+  () => {
     pageCheckout.validatePageCheckout();
     pageCheckout.insertDataInForm();
-});
+  }
+);
 
 Then("a compra deve ser finalizada com sucesso", () => {
-    pageCheckout.validateOrderComplete();
+  pageCheckout.validateOrderComplete();
 });

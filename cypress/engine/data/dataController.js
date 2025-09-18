@@ -8,5 +8,4 @@ export class DataController {
   static get(key) {
     return this.data[key];
   }
-
 }

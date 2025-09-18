@@ -84,43 +84,47 @@ CYPRESS-SAUCEDEMO-E2E
 
 ---
 
-## ▶️ Como Executar  
+## ▶️ Como Executar
 
-1. **Clone o repositório:**  
+1. **Clone o repositório:**
+
 ```bash
 git clone https://github.com/AndersonBohnem/cypress-saucedemo-e2e.git
 cd cypress-saucedemo-e2e
 ```
 
-2. **Instale as dependências:**  
+2. **Instale as dependências:**
+
 ```bash
 npm install
 ```
 
-3. **Abra o Cypress no modo interativo:**  
+3. **Abra o Cypress no modo interativo:**
+
 ```bash
 npx cypress open
 ```
 
-4. **Ou execute em modo headless:**  
+4. **Ou execute em modo headless:**
+
 ```bash
 npx cypress run
 ```
 
 ---
 
-## 💻 Comandos Úteis  
+## 💻 Comandos Úteis
 
-- `npx cypress open` → Abre o Test Runner do Cypress  
-- `npx cypress run` → Executa todos os testes em modo headless  
-- `npm test` → Alias para rodar os testes (se configurado no `package.json`)  
+- `npx cypress open` → Abre o Test Runner do Cypress
+- `npx cypress run` → Executa todos os testes em modo headless
+- `npm test` → Alias para rodar os testes (se configurado no `package.json`)
 
 ---
 
-## 🧩 Boas Práticas  
+## 🧩 Boas Práticas
 
 ✔️ Utilize **Page Objects** para facilitar a manutenção dos testes  
 ✔️ Centralize os seletores em arquivos de **atributos**  
 ✔️ Escreva cenários claros e objetivos no **Gherkin**  
 ✔️ Sempre valide o **resultado esperado** após cada ação  
-✔️ Mantenha os testes **independentes** uns dos outros  
+✔️ Mantenha os testes **independentes** uns dos outros

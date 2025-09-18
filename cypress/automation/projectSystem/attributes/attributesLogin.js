@@ -1,13 +1,11 @@
 class AttributesLogin {
+  static divTitleLogin = ".login_logo";
 
-    static divTitleLogin = '.login_logo';
+  static inputUsername = "#user-name";
 
-    static inputUsername = '#user-name';
+  static inputPassword = "#password";
 
-    static inputPassword = '#password';
-
-    static buttonLogin = '#login-button';
-
+  static buttonLogin = "#login-button";
 }
 
 export default AttributesLogin;

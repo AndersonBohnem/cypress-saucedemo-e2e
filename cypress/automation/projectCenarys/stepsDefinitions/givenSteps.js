@@ -6,4 +6,3 @@ const pageLogin = new PageLogin();
 Given("que acesso a loja", () => {
   pageLogin.accessStore("https://www.saucedemo.com/");
 });
-

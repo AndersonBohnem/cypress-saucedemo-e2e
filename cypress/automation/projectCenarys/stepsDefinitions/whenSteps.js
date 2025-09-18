@@ -14,14 +14,14 @@ When("eu informo usuário {string} e senha {string}", (usuario, senha) => {
 });
 
 When("adiciono o primeiro produto no carrinho", () => {
-    pageHome.selectFirstProductInCart();
-    pageHome.addToCart();
+  pageHome.selectFirstProductInCart();
+  pageHome.addToCart();
 });
 
 When("clico em finalizar compra", () => {
-    pageCart.goToCheckout();
+  pageCart.goToCheckout();
 });
 
 When("finalizo a compra", () => {
-    pageCheckout.finishOrder();
+  pageCheckout.finishOrder();
 });
